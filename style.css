@@ -8,13 +8,14 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
 }
 
 hr{
     margin: 2rem 0rem;
 }
 .container {
-    padding: 0 rem 1 rem;
+    padding: 0 rem 1rem;
 }
 
 .centered-container {
@@ -97,4 +98,16 @@ hr{
 
 .off-white{
     background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
 }
