@@ -49,8 +49,9 @@ hr{
 
 .navigation{
     background-color: var(--primary-color);
-    padding: 0.5rem 0rem;
+    padding: 1rem ;
     color: white;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .link{
@@ -62,5 +63,9 @@ hr{
 }
 
 .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link-active{
     font-weight: bold;
 }
