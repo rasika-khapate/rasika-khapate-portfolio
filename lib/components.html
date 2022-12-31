@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link rel="/stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Component library</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel eius, autem at delectus molestiae adipisci!
+        Dignissimos odit laboriosam alias atque, qui beatae quibusdam obcaecati quos cum cupiditate exercitationem
+        repellat doloribus.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h6>This is the smallest heading</h6>
+    <p>This is a paragraph, which will wrap at the end</p>
+    <p>This paragraph will have <strong>bold</strong> text</p>
+    <small>The is small tag which is relatively smaller than p tag</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container">
+        This is fluid container which will go at the end of the page
+    </div>
+
+    <h3>fluid container</h3>
+    <div class="container centered-container">This is a centered container,it will go till a specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary " href="/">Primary link</a>
+    <a class="link link-secondary " href="/">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>Unordered lists</h3>
+
+    <ul class="list-no-bullet">
+        <li>ItemOne</li>
+        <li>ItemTwo</li>
+        <li>ItemThree</li>
+    </ul>
+
+    <h4>Unordered inline lists</h4>
+    <ul class="list-no-bullet">
+        <p>this is supposed to be inline, we can make it using CSS</p>
+        <li class="list-item-inline" >inline one</li>
+        <li class="list-item-inline" >inline two</li>
+        <li class="list-item-inline" >inline three</li>
+    </ul>
+
+    <h4>Reverse Ordered list</h4>
+    <p> will make this reverse with CSS</p>
+    <ol reversed>
+        <li>Rice</li>
+        <li>Dal</li>
+        <li>Chawal</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">AmIBrand</div>
+    <ul class="list-no-bullet nav-pills">
+        <li class="list-item-inline"><a class="link link-active" href="/">Home</a></li>
+        <li class="list-item-inline"><a class="link" href="/">Projects</a></li>
+        <li class="list-item-inline"><a class="link" href="/">About</a></li>
+    </ul>
+</nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+
+        <h1 class="hero-heading">I am Rasika, the <span style="color: var(--primary-color)"> web developer </span> </span></h1>
+
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container centered-container">
+            <h1>This is a white section</h1>
+            <p>This will have white background</p>
+        </div>
+        
+    </section>
+    <section class="section off-white">
+        <div class="container centered-container">
+        <h1>This is a off-white section</h3>
+        <p>This will have gray background</p>
+    </div>
+    </section>
+
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer container">
+        <div class="footer-header">Some small heading text</div>
+        <ul class="list-no-bullet" >
+            <li class="list-item-inline"><a class="link" href="/" >SocialOne</a></li>
+            <li class="list-item-inline"><a class="link" href="/"  >SocialTwo</a></li>
+            <li class="list-item-inline"><a class="link" href="/" >SocialThree</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

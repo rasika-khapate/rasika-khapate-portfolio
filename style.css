@@ -67,6 +67,7 @@ hr{
 
 .nav-brand{
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .navigation .link-active{
@@ -110,4 +111,13 @@ hr{
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+padding-inline-start: 0px;
 }
