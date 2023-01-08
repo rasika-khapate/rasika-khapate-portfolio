@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@1,700;1,800&display=swap');
 
 :root {
-    --primary-color: #7c3aed;
+    /* --primary-color: #047857; */
+    --primary-color : #4E8BAA;
+   
     --dark-gray:#71717a;
     --off-white:#e5e7eb;
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Faustina', serif;
+    font-size: larger;
     margin: 0px;
+    background-color: #f9fafb;
+}
+
+strong{
+    color: #0369a1;
 }
 
 hr{
